@@ -5,4 +5,3 @@
 mkdir -p ~/.local/bin
 printf '#!/bin/bash \nxvfb-run --auto-servernum --server-args "-screen 0 640x480x24" ./squashfs-root/app/orca "$@"' > ~/.local/bin/wkhtmltopdf
 chmod 777 ~/.local/bin/wkhtmltopdf 
-chmod -R 777 squashfs-root/
