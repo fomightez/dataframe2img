@@ -1,7 +1,0 @@
-#!/bin/bash
-
-
-# Make wkhtmltopdf executable under xvfb (based on stuff I worked out for Plotly orca and http://ciaranmcnulty.com/converting-html-to-pdf-using-wkhtmltopdf/ )
-mkdir -p ~/.local/bin
-printf '#!/bin/bash \nxvfb-run --auto-servernum --server-args "-screen 0 640x480x24" ./squashfs-root/app/orca "$@"' > ~/.local/bin/wkhtmltopdf
-chmod 777 ~/.local/bin/wkhtmltopdf 
