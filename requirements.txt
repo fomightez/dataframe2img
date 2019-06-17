@@ -6,4 +6,4 @@ peakutils
 matplotlib
 plotly
 psutil
-imagekit
+imgkit
