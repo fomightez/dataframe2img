@@ -1,0 +1,9 @@
+opencv-python-headless
+scipy
+pillow
+pandas
+peakutils
+matplotlib
+plotly
+psutil
+pip install imagekit
