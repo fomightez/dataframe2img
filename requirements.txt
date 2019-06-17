@@ -6,4 +6,4 @@ peakutils
 matplotlib
 plotly
 psutil
-pip install imagekit
+imagekit
