@@ -4,6 +4,7 @@ pillow
 pandas
 peakutils
 matplotlib
+seaborn
 plotly
 psutil
 imgkit
