@@ -3,7 +3,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/dataframe2img/master?filepath=index.ipynb)
 
-Makes images of stylized dataframes so that when notebooks are reopened, stylized view represented.
+Makes images of stylized dataframes so that when Jupyter notebooks are reopened, the stylized view is represented.
 
 Click on a `launch binder` badge on this page to launch a session where everything needed for this process is set up and the steps in the process are demonstrated.  
 
