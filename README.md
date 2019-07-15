@@ -3,7 +3,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/dataframe2img/master?filepath=index.ipynb)
 
-Makes images of stylized dataframes so that when Jupyter notebooks are reopened, the stylized view is represented.
+Makes images of stylized dataframes so that when Jupyter notebooks are reopened, the stylized view is represented. **Importantly, it includes tips that also enable it to be done without generating giant file sizes as well.**
 
 Click on a `launch binder` badge on this page to launch a session where everything needed for this process is set up and the steps in the process are demonstrated.  
 
@@ -14,9 +14,12 @@ Pandas dataframe --> Pandas dataframe with conditional stylized cells ---> Panda
 
 -----
 
-Attribution
+### Attribution
 
 This builds on the approach from Shovalt [here](https://stackoverflow.com/a/50097322/8508004), with some advanced styling following [Andy Lane's post](https://medium.com/@andy.lane/convert-pandas-dataframes-to-images-using-imgkit-5da7e5108d55).
+
+Addressing the default image size and quality of output was worked out with advice found [here](https://github.com/csquared/IMGKit/issues/13#issuecomment-13041686)(thanks especially to landonwilkins ) and [here](https://github.com/jarrekk/imgkit/issues/18#issuecomment-359372163)(thanks especially to jarrekk).
+
 
 -----
 
