@@ -23,7 +23,7 @@ Addressing the default image size and quality of output was worked out with advi
 ----
 
 Related:  
-Keep in mind for some styles you can save it as HTML, e.g., [here](https://stackoverflow.com/a/71219735/8508004), and could probably place that code in as HTML cell or wrappted in markdown cell.
+Keep in mind for some styles you can save it as HTML, e.g., [here](https://stackoverflow.com/a/71219735/8508004), and could probably place that code in as HTML cell or wrapped in markdown cell.
 
 -----
 
