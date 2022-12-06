@@ -5,6 +5,14 @@
 
 Makes images of stylized dataframes so that when Jupyter notebooks are reopened, the stylized view is represented. **Importantly, it includes tips that also enable it to be done without generating giant file sizes as well.**
 
+------
+
+## UPDATE
+
+There is a **more well-developed, related project** that came after mine. See [dataframe_image](https://github.com/dexplo/dataframe_image), which is described as "A python package for embedding pandas DataFrames as images into pdf and markdown documents." You may wish to check that out.
+
+------
+
 Click on a `launch binder` badge on this page to launch a session where everything needed for this process is set up and the steps in the process are demonstrated.  
 
 [Pandas dataframe styling](https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html) is a great feature for visualizing tabular data right in a notebook; however, at the time I wrote this I was finding it annoying that it gets removed from rendering when you reopen the notebook. (At least every place I have seen so far for apllied cell and text coloring while `style.format` settings such as `style.format("{:.2%}"` to show floats as percents with two-decimals, seem to survive. Always to be the case for cell and text coloring? **UPDATE: I SHOULD ADD THAT I HAVEN'T TESTED HOW SURVIVAL OF THESE FEATURES IS NOW. IT COULD BE BETTER.**) I wanted a way to have at least the information visible when I reload. So an image would at least be viewable, albeit not as interactive.
@@ -24,6 +32,8 @@ Addressing the default image size and quality of output was worked out with advi
 
 Related:  
 Keep in mind for some styles you can save it as HTML, e.g., [here](https://stackoverflow.com/a/71219735/8508004), and could probably place that code in as HTML cell or wrapped in markdown cell.
+
+There is a **more well-developed, related project** that came after mine. See [dataframe_image](https://github.com/dexplo/dataframe_image), which is described as "A python package for embedding pandas DataFrames as images into pdf and markdown documents." You may wish to check that out.
 
 -----
 
