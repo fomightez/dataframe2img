@@ -33,7 +33,7 @@ Addressing the default image size and quality of output was worked out with advi
 Related:  
 Keep in mind for some styles you can save it as HTML, e.g., [here](https://stackoverflow.com/a/71219735/8508004), and could probably place that code in as HTML cell or wrapped in markdown cell.
 
-There is a **more well-developed, related project** that came after mine. See [dataframe_image](https://github.com/dexplo/dataframe_image), which is described as "A python package for embedding pandas DataFrames as images into pdf and markdown documents." You may wish to check that out.
+There is a **more well-developed, related project** that came after mine. See [dataframe_image](https://github.com/dexplo/dataframe_image), which is described as "A python package for embedding pandas DataFrames as images into pdf and markdown documents." You may wish to check that out. (I learned of it when researching this topic again after [seeing someone recommend my script](https://stackoverflow.com/a/60148429/8508004), and then finding [this thread](https://stackoverflow.com/a/63387275/8508004), where I first encountered [dataframe_image](https://github.com/dexplo/dataframe_image) and also `pandas.plotting.table` which looks useful to know about for efforts with pandas tables displaying in conjunction with plots, as well as possibly elsewhere.
 
 -----
 
