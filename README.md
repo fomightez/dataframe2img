@@ -9,7 +9,7 @@ Makes images of stylized dataframes so that when Jupyter notebooks are reopened,
 
 ## UPDATE
 
-There is a **more well-developed, related project** that came after mine. See [dataframe_image](https://github.com/dexplo/dataframe_image), which is described as "A python package for embedding pandas DataFrames as images into pdf and markdown documents." You may wish to check that out.
+There is a **more well-developed, related project** that came after mine. See [dataframe_image](https://github.com/dexplo/dataframe_image), which is described as "A python package for embedding pandas DataFrames as images into pdf and markdown documents." You may wish to check that out. ([Here's someone using it to make nice images](https://stackoverflow.com/q/75474869/8508004), even if they aren't what they want yet.)
 
 ------
 
